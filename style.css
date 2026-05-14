@@ -1,13 +1,74 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+    background:#1e1e1e;
+    color:white;
+}
 
-PACCHETTO DEMO MEET & REACT
+.overlay{
+    padding:20px;
+}
 
-Contiene:
-- index.html
-- style.css
-- struttura base moderna
-- tema legno
-- schermata profilo
-- schermata vicini
-- sfida a tris demo
+h1{
+    text-align:center;
+    color:#ffb347;
+}
 
-Puoi caricare tutto su GitHub Pages.
+.card{
+    background:#2c2c2c;
+    border-radius:20px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.wood-btn{
+    background:#ffb347;
+    border:none;
+    padding:12px 20px;
+    border-radius:12px;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+    border:none;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:15px;
+}
+
+.tags span{
+    background:#444;
+    padding:8px 12px;
+    border-radius:20px;
+}
+
+.bottom-bar{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#111;
+    display:flex;
+    justify-content:space-around;
+    padding:12px 0;
+    border-top:1px solid #333;
+}
+
+.bottom-bar div{
+    text-align:center;
+    font-size:14px;
+    color:white;
+}

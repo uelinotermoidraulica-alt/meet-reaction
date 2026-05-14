@@ -9,7 +9,7 @@
 <body>
   <main class="app">
     <header class="top">
-      <div class="brand-pin"></div>
+      <img class="header-icon" src="nav-vicini.jpg" alt="Posizione">
       <div>
         <h1>Meet & React</h1>
         <p>Solo persone reali entro 300 metri.</p>
@@ -18,7 +18,7 @@
 
     <section id="vicini" class="screen active">
       <div class="wood-card hero">
-        <div class="pin-big"></div>
+        <img class="big-icon" src="nav-vicini.jpg" alt="Posizione">
         <h2>Persone vicine</h2>
         <p>Scopri chi è davvero vicino a te. Attiva il GPS e completa il profilo per essere visibile.</p>
         <button onclick="updateGPS()">Aggiorna posizione GPS</button>
@@ -34,12 +34,12 @@
     <section id="sticker" class="screen">
       <h2>Sticker</h2>
       <div class="sticker-grid">
-        <button>☕ Caffè insieme?</button>
-        <button>🍹 Drink?</button>
-        <button>🔥 Sei tanta roba</button>
-        <button>👋 Sono qui vicino</button>
-        <button>💬 Due minuti?</button>
-        <button>🚶 Due passi?</button>
+        <button>Caffè insieme?</button>
+        <button>Drink?</button>
+        <button>Sei tanta roba</button>
+        <button>Sono qui vicino</button>
+        <button>Due minuti?</button>
+        <button>Due passi?</button>
       </div>
     </section>
 
@@ -54,8 +54,8 @@
     <section id="profilo" class="screen">
       <h2>Il mio profilo</h2>
       <div class="profile-card">
-        <div class="avatar">🙂</div>
-        <label class="upload">📷 Carica foto <input type="file" /></label>
+        <img class="profile-icon" src="nav-profilo.jpg" alt="Profilo">
+        <label class="upload">Carica foto <input type="file" /></label>
         <input placeholder="Nome" />
         <input type="number" placeholder="Età" />
         <textarea placeholder="Bio breve"></textarea>
@@ -77,11 +77,11 @@
     </section>
 
     <nav class="bottom-nav">
-      <button onclick="showScreen('vicini')"><span class="mini-pin"></span><small>Vicini</small></button>
-      <button onclick="showScreen('sticker')">💙<small>Sticker</small></button>
-      <button onclick="showScreen('chat')">💬<small>Chat</small></button>
-      <button onclick="showScreen('profilo')">👤<small>Profilo</small></button>
-      <button onclick="showScreen('menu')">☰<small>Menu</small></button>
+      <button onclick="showScreen('vicini')"><img src="nav-vicini.jpg" alt=""><small>Vicini</small></button>
+      <button onclick="showScreen('sticker')"><img src="nav-sticker.jpg" alt=""><small>Sticker</small></button>
+      <button onclick="showScreen('chat')"><img src="nav-chat.jpg" alt=""><small>Chat</small></button>
+      <button onclick="showScreen('profilo')"><img src="nav-profilo.jpg" alt=""><small>Profilo</small></button>
+      <button onclick="showScreen('menu')"><img src="nav-menu.jpg" alt=""><small>Menu</small></button>
     </nav>
   </main>
   <script src="script.js"></script>

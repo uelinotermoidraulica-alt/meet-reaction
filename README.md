@@ -1,3 +1,3 @@
 # Meet & React
 
-Versione demo stile legno, pronta per GitHub Pages, Netlify o Vercel.
+Versione con icone menu in stile legno.
